@@ -82,8 +82,8 @@ class ExForm extends FormBase {
 
 
     $url = "https://api.hubapi.com/contacts/v1/contact/createOrUpdate/email/".$email."/?hapikey=$email = $form_state->getValue('email');
-    $firstname = $form_state->getValue('first_name');
-    $lastname = $form_state->getValue('last_name');
+    $firstname = $form_state->getValue('firstname');
+    $lastname = $form_state->getValue('lastname');
 
 
     $url = "https://api.hubapi.com/contacts/v1/contact/createOrUpdate/email/".$email."/?hapikey=0425c9e1-339a-495d-9acf-02363b6f9b8c";
